@@ -1,0 +1,52 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Instance Type Comparison{% endblock title %}
+{% block main-content %}
+<div class="container my-5">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Instance Type Comparison</h2>
+            <hr>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Instance Type</th>
+                        <th>vCPUs</th>
+                        <th>Memory (GiB)</th>
+                        <th>Storage</th>
+                        <th>Network Performance</th>
+                        <th>Price</th>
+                        <th>Select</th>
+                        <th>Number of Instances</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for instance in instances %}
+                    <tr>
+                        <td>{{ instance.type }}</td>
+                        <td>{{ instance.vcpus }}</td>
+                        <td>{{ instance.memory }}</td>
+                        <td>{{ instance.storage }}</td>
+                        <td>{{ instance.network }}</td>
+                        <td>{{ instance.price }}</td>
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="{{ instance.type }}" id="instance{{ forloop.counter }}" name="selected_instances">
+                                <label class="form-check-label" for="instance{{ forloop.counter }}"></label>
+                            </div>
+                        </td>
+                        <td>
+                            <input type="number" class="form-control" id="quantity{{ forloop.counter }}" name="quantity_{{ instance.type }}" min="1" value="1">
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary shadow px-5 py-2 me-3">Add Selected to Cart</button>
+                <a href="{% url 'checkout' %}" class="btn btn-danger shadow px-5 py-2">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main-content %}

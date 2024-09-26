@@ -1,0 +1,123 @@
+<!-- app/cart.html -->
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Cart{% endblock title %}
+{% block main-content %}
+<div class="container my-5">
+ {% if messages %}
+ {% for message in messages %}
+  <p {% if message.tags %} class="alert alert-{{message.tags}} mb-5" {% endif %}>{{message}}</p>
+ {% endfor %}
+ {% endif %}
+ <div class="row">
+  <h1 class="text-center mb-5">Shopping Cart</h1>
+  <div class="col-sm-8">
+  <div class="card">
+   <div class="card-body">
+    <h3>Cart Items</h3>
+    {% for cart in carts %}
+    <hr>
+    <div class="row">
+     <div class="col-sm-9">
+      <div>
+       <h5>{{cart.product.type}}</h5>
+       <p class="mb-2 text-muted small">{{cart.product.vcpus}} vCPUs, {{cart.product.memory}} GiB Memory</p>
+       <div class="my-3">
+        <label for="quantity">Quantity:</label>
+        <a class="minus-cart btn" pid="{{cart.product.id}}"><i class="fas fa-minus-square fa-lg"></i></a>
+          <span id="quantity">{{cart.quantity}}</span>
+        <a class="plus-cart btn" pid="{{cart.product.id}}"><i class="fas fa-plus-square fa-lg"></i></a>
+       </div>
+       <div class="d-flex justify-content-between">
+        <a class="btn btn-sm btn-secondary mr-3 remove-cart" pid={{cart.product.id}}>Remove item </a>
+        <p class="mb-0"><span><strong>Rs. {{cart.product.price}}</strong></span></p>
+       </div>
+      </div>
+
+     </div>
+    </div>
+
+    {% endfor %}
+   </div>
+   </div>
+  </div>
+
+  <div class="col-sm-4">
+   <div class="card">
+    <div class="card-body">
+      <h3>The Total Amount of</h3>
+      <ul class="list-group">
+       <li class="list-group-item d-flex justify-content-between">
+        <div class="text-success"><h5>Amount</h5></div>
+        <span><strong>Rs. {{amount}}</strong></span>
+       </li>
+       <li class="list-group-item d-flex justify-content-between">
+        <div class="text-success"><h5>Shipping Cost</h5></div>
+        <span><strong>Rs. 70.0</strong></span>
+       </li>
+       <li class="list-group-item d-flex justify-content-between">
+        <div class="text-danger"><h5>Total Amount</h5></div>
+        <span><strong>Rs. {{totalamount}}</strong></span>
+       </li>
+      </ul>
+      <hr>
+      <a href="{% url 'checkout' %}" class="btn btn-primary btn-block">Proceed to Buy</a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+
+<script type="text/javascript">
+  $('.plus-cart').click(function(){
+    var id = $(this).attr("pid").toString();
+    var elm = this.parentNode.children[2]
+    $.ajax({
+      type:"GET",
+      url:"/plus_cart",
+      data: {
+        prod_id:id
+      },
+      success: function(data){
+        elm.innerText = data.quantity;
+        document.getElementById("amount").innerText = data.amount;
+        document.getElementById("totalamount").innerText = data.totalamount;
+      }
+    })
+  });
+
+  $('.minus-cart').click(function(){
+    var id = $(this).attr("pid").toString();
+    var elm = this.parentNode.children[2]
+    $.ajax({
+      type:"GET",
+      url:"/minus_cart",
+      data: {
+        prod_id:id
+      },
+      success: function(data){
+        elm.innerText = data.quantity;
+        document.getElementById("amount").innerText = data.amount;
+        document.getElementById("totalamount").innerText = data.totalamount;
+      }
+    })
+  });
+
+  $('.remove-cart').click(function(){
+    var id = $(this).attr("pid").toString();
+    var elm = this
+    $.ajax({
+      type:"GET",
+      url:"/remove_cart",
+      data: {
+        prod_id:id
+      },
+      success: function(data){
+        elm.parentNode.parentNode.parentNode.parentNode.remove()
+        document.getElementById("amount").innerText = data.amount;
+        document.getElementById("totalamount").innerText = data.totalamount;
+      }
+    })
+  });
+</script>
+{% endblock %}

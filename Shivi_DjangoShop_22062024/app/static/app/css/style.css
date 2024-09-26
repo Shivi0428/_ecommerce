@@ -1,0 +1,45 @@
+.carousel-inner .carousel-item img {
+  height: 25vh; /* 25% of the viewport height */
+  object-fit: cover; /* Ensure the image covers the container without stretching */
+}
+
+.sea-green-bg {
+  background-color: #20bebe !important; /* Added !important to override any other styles */
+}
+
+.sea-green-bg {
+  background-color: #20bebe !important; /* Added !important */
+}
+
+.text-white {
+  color: #ffffff !important; /* Added !important */
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #20bebe;
+}
+
+.owl-carousel .item {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-next {
+  float: right;
+}
+
+.owl-prev {
+  float: left;
+}
+
+.owl-prev span,
+.owl-next span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-dark-custom {
+    background-color: rgba(32, 190, 190, 0.9);

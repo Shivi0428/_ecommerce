@@ -1,0 +1,35 @@
+{% extends 'app/base.html' %}
+{% block title %}Order Details{% endblock title %}
+
+{% block main-content %}
+<div class="container my-5">
+    <h2>Order Details</h2>
+    <hr>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in order_items %}
+            <tr>
+                <td>{{ item.product }}</td>
+                <td>{{ item.desc1 }}</td>
+                <td>{{ item.qty }}</td>
+                <td>{{ item.unitprice }}</td>
+                <td>{{ item.qty|multiply:item.unitprice }}</td>
+            </tr>
+            {% endfor %}
+            <tr>
+                <td colspan="4">Total Price</td>
+                <td>{{ order.itotal }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+{% endblock main-content %}

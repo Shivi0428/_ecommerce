@@ -1,0 +1,59 @@
+<!-- instance_comparison_database.html -->
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block title %}Instance Type Comparison{% endblock title %}
+
+{% block main-content %}
+<style>
+    .form-control.spinner {
+        width: 60px;
+        text-align: center;
+        appearance: textfield;
+    }
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        opacity: 1;
+    }
+</style>
+<div class="container my-5">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Instance Type Comparison</h2>
+            <hr>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Instance Type</th>
+                        <th>vCPUs</th>
+                        <th>Memory (GiB)</th>
+                        <th>Storage</th>
+                        <th>Network Performance</th>
+                        <th>Price</th>
+                        <th>Order</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for instance in instances %}
+                    <tr>
+                        <td>{{ instance.type }}</td>
+                        <td>{{ instance.vcpus }}</td>
+                        <td>{{ instance.memory }}</td>
+                        <td>{{ instance.storage }}</td>
+                        <td>{{ instance.network }}</td>
+                        <td>{{ instance.price }}</td>
+                         <td><input type="checkbox" name="order_{{ instance.id }}" value="{{ instance.id }}"></td>
+                         <td><input type="number" name="quantity_{{ instance.id }}" class="form-control spinner" min="0" value="1"></td>
+
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <div class="d-flex justify-content-end">
+                <a href="{% url 'checkout' %}" class="btn btn-danger shadow px-5 py-2">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main-content %}

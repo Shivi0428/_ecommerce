@@ -1,0 +1,17 @@
+<!-- app/search_results.html -->
+<!-- Display Results -->
+<div class="navbar-search-results">
+    {% if results %}
+        <ul class="navbar-nav">
+            {% for product in results %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'product_detail' product.id %}">
+                        {{ product.title }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No results found.</p>
+    {% endif %}
+</div>

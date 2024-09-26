@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f6286eb-bfe2-4dd0-83fa-56cffbe7a586" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/SAVITA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Database/.idea/Database.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoProject230624/.idea/DjangoProject230624.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_tutorials-main/10_Django-email-login/.idea/10_Django-email-login.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django_tutorials-main/15_Django-email-confirm/.idea/15_Django-email-confirm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMP/.idea/SMP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shiva/With Payment Gateway/Shivi Treasure/.idea/Shivi Treasure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shivi_DjangoShop_22062024 - Copy/.idea/Savita_DjangoShop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shivi_DjangoShop_22062024 - Copy/Shivi_DjangoShop_22062024/.idea/shoppinglyx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Savita_DjangoShop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shivi_DjangoShop_22062024/.idea/shoppinglyx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shivi_DjangoShop_30062024/.idea/Savita_DjangoShop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shivi_DjangoShop_30062024/Shivi_DjangoShop_30062024/.idea/shoppinglyx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shivi_Django_Login_Email_22062024/.idea/Savita_DjangoShop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shivi_Django_Login_Email_22062024/shoppinglyx/.idea/shoppinglyx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stock_management Python_first_project_for_everyone/Stock_management_project/project/stock_mgt_page/.idea/Stock_management_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../end-to-end-ml/.idea/end-to-end-ml.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AWS/3 Steps to Get AWS Cloud Practitioner Certified in 2 Weeks _ by Kenneth Leung _ Towards Data Science.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AWS/GitHub - kennethleungty_AWS-Certified-Cloud-Practitioner-Notes_ Notes compiled based on AWS E-Learning lessons and transcripts.mhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AWS/ed7181de-1ac0-40d0-ac88-1e2ac9851f8b.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AWS/notes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Allorep.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/AllorepA.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/AllorepB.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/AllorepE.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/AllorepH.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/AllorepP.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/AllorepQ.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/AllorepS.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/AllorepV.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BATCH.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BATCHSUB.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BATCHSUB0.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BATCHSUM.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BATCHTRANS.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BAXTER ERROR SOLUTION.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BAXTER-Analysis.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BAXTER-VOL.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BAXTERParti.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BUYRPT-compass.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BUYRPT.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BUYSUBRPT.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BUYSUBRPT2.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Bank.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Batch.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Batch231219.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Baxter-Holroyd-Sales.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Baxter-Holroyd-Sales.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Baxter-Holroyd-Sales.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BaxterPriceTemplate.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BaxterPriceTemplate.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BaxterPriceTemplate.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BaxterVS.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/BaxterVS.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CASHBOOK.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CASHBOOK0.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CASHBOOK1.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CASHBOOK2.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CASHBOOK3.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CASHSUB.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CAT.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CATEGORY.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CATEGORY.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CATS.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CLEARBAL.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CLEARPENNIES.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CLEARPENNIES.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CNAMES.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/COINFO.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/COMPASSLIVE2.cer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/COMPINVLIST.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CONTROLACs.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CPICKLIST.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CREDITORSOLD.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CREDITORSx.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/ChangeLog_HULSE.txt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CompParti.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CompSales.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/CompSales2008.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy (2) of TB.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of AllorepS.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of BUYSUBRPT.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of Batch.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of Batch231219.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of Baxter-Holroyd-Sales.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of BaxterPriceTemplate.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of BaxterPriceTemplate.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of BaxterPriceTemplate.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of CLEARPENNIES.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of ChangeLog_HULSE.txt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of CompParti.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of DR.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of ERR-CORR.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of ESHUL01 - 210701 - 210731 - ES Hulse and Son Ltd (FV) (1).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of INVOICE.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of INVOICEW.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of INVOICEWc.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of INVOICEm.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of INVOICEt-email.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of INVOICEt.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of INVOICEtc.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of MAINMENU.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of PICKLIST.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of PLIST-tf-cat-q.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of PLIST-tf-cat-t.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of PLIST-tf-cat-u.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of PLIST-tf-cat.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of PLIST.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of PLIST3.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of PRICES.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of PRICES.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of PRICES.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of PRICES2.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of PRICES2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of PROGRESS.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of PURCHASE.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of Quantam Care vol sales.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of SALES.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of STOCKCON.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of STOCKRI.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of SimmonsReport.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of TB.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of Tf cat T.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of Tf cat U.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of Tf cat q.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of Thomas-Analysis.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of baxter-newcr-err.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of baxter-price-template.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of disection.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of frdprice.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of frmBaxterCreditId.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of frmInvoiceEmail.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of frmLoadXml.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of frmLogin.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of frmRPrInvDt-Email.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of frmWEEKINV.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of reem-del ac.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of remdelac.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of remdelac.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of test.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of tf cat q.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of tf cat t.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of tf cat u.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of tfq-price.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of thomas franks vol sales.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of thomas-franks-cat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of thomas-franks-cat2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of thomas-franks-cat3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of thomas-franks-cat4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of ~crw6c41.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Copy of ~crw7267.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/DEBTORS.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/DEBTORSold.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/DEBTORSx.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/DELNOTE.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/DELTRANSFRM.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/DR.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/DROP-COUNT.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/ERR-CORR.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/ERR-CORR.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/ERR-CORR.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/ERRCOR.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/ERRCOR.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/ESHUL01 - 210701 - 210731 - ES Hulse and Son Ltd (FV) (1).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/ESHUL01 - 220601 - 220630 - ES Hulse and Son Ltd (FV).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/EXPSRV.DLL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Form1.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Form1.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Form1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/GLOBAL.bas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Grants.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/HOLROYD-X" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Holroyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/INVLIST-compass.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/INVLIST.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/INVOICEW.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/INVOICEWc.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/INVOICEX.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/INVOICEm.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/INVOICEt-email.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/INVOICEt.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/INVOICEt100316.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/INVOICEtc.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/INVOICING.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/INVOICING1.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/INVOIC~1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/InvoiceList.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/JLMNRZonly.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/JOURNAL.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/JOURNAL.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/MAINMENU.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/MAINMENU.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/MDIForm1.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/MDIForm1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/MEND-LEDGERS.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/MEND-NOMS.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/MENDL.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/MENDN.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/MSSCCPRJ.SCC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Module1.bas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Modulex.bas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/NOMS.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/NOMSSUM.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/NOMSSUM.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/NOMS_CHANGE.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Names.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/OLDBATCH.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/OPENAC.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/OPENAC.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/ORDER.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/ORDER.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/OS.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/OSBAL.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/OSBAL.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/P&amp;L1.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PANDL.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PCASH.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PCASH.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PCASH.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PDATE.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PDATE.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PDAYBOOK.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PDAYBOOKSUB.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PERIOD_CHANGE.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PICKLIST-safe.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PICKLIST.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PICKLIST_StdOrd.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PICKLISTrcs.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PINV.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PINV.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PLIST-bax.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PLIST-tf-cat-q.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PLIST-tf-cat-t.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PLIST-tf-cat-u.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PLIST-tf-cat-v.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PLIST-tf-cat.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PLIST.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PLIST3.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PPICKLIST.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PPICKLIST_StdOrd.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PPRICES.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PPRICEST.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PREPARE COMPASS.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PRICELIST.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PRICELIST.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PRICES.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PRICES.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PRICES2.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PRICES2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PRODUCTL.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PROGRESS.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PROGRESS.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/PURCHASE.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Project1.DDF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Quantam Care vol sales.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/QuantamTurnOver-Summary.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/QuantamTurnOver.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/RECEIPTS.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/RECEIPTS.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/REPINV.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/REPWINV.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/REPWINV.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Radia.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/SALES.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/SALTURN.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/SDAYBOOK.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/SINV.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/SINV.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/SINV.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/SMAINMENU.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/SMARKUPSFRM.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/ST6UNST.LOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STATEMENT-eb.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STATEMENT-thomas.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STATEMENT.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STATEMENT0811.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STOCK-updated.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STOCK.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STOCK.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STOCK110623.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STOCK240623.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STOCK28042023.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STOCKCON.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STOCKCON.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STOCKRI.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STOCKVAL.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STOCKold.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/STate-excel.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/SUPPLIER.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/SUPTURN.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Setup.Lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/SimmonsReport.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/StdOrd.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/StdOrd.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Supplier Product Data Template.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/TB.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/TB1.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/TREP.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/TREP2.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/TREP3.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/TSFBAL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/TSFR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Tf cat T.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Tf cat U.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Tf cat q.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Tfrank-Summary.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Thomas-Analysis.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Thomas.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Transferdata.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Transferdata.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Transferdata.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/Transfferdata.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/TurnOver.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/TurnOverc.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/USERDETAILS.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/USERSFRM.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/VCMMGR.DLL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/WAAgent(1).msi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/WINACCT.PDM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/WINACCT.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/WINACCT.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/WINACCT.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/WINACCT.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/XXXXX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/YEAREND.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/YEAREND.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/YEAREND.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/YearEndNoms.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/YearEndNoms.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/YearEndNoms.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/ZPL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/accounts.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/allo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/allocations.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/allocations.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/allocations.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/allorep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/allorep.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/balances.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/balances.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/balances.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baltsfr.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/bax-rep.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/bax-vol-sal.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter-holr.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter-new.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter-newcr.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter-newcrrr.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter-newcrx.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter-price-template.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter100316.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter161215.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter_creditnote" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter_creditnote.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter_delete_creditnote" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter_delete_creditnote.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter_delete_invoice" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter_delete_invoice.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter_invoice" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/baxter_invoice.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/buynotes.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/cashbook-nov08.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/cater.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/ccopy.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/code.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/codecpy.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/codecpy.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/comp-stat.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/compass.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/copy of baxter.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/copy of holroyd.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/creditors.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/cust-transfer.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/cust-transfer.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/custtsfr.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/delete-soiitem-sorders.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/delete-soiitem-sorders.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/delete-soiitem-sorders.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/deleted-DEBTORS.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/deleted-snames.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/deloldorders.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/delorder.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/delorder.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/disection.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/emailstat.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/emailstat.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/emailstatement.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/error.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/fpLIST-bax.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frdpr.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frdprice-OLD.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frdprice.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frdpriceTest.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmBaxterCreditId.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmCompInvList.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmCompSales.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmCompSales.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmDeleteNoms.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmEmailAllStats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmInvoiceDelete.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmInvoiceEmail.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmLoadXml.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmLoadXml.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmLogin.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmQuantamTurnover" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmQuantamTurnover.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmQuantamTurnover.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmRPrInvDt-Email-TF.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmRPrInvDt-Email.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmRPrInvDt.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmStatic.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmTransfferdata.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmTurnover.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmWEEKINV.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmXmlCreditNote.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmXmlCreditNote.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmYearEnd.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmtfrankturnover.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/frmtfrankturnover.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/head.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/holroyd.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/holroyd161215.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/june22.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/mendl.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/mendn.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/monthly.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/nnames.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/nnamesc.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/old3493.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp_files/001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp_files/002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp_files/003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp_files/004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp_files/005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp_files/006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp_files/007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp_files/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp_files/head-logo.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp_files/jquery-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp_files/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp_files/online_001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp_files/online_002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/online_food_system_full.asp_files/reset.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/onlyJLMNRZfrom Markups.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/orders.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/pdaybook.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/pledger.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/pnames.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/prices.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/reem-del ac.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/remdelac.vbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/remdelac.vbw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/rep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/rr.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/sledger.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/sledger.frx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/snames-email.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/snames.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/statement.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/statement.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/sumnoms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/sumnoms.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/supplier.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/test.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/test.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/tf cat q.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/tf cat t.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/tf cat u.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/tf.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/tfTurnOver.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/tforders.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/tfq-price.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/thomas franks vol sales.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/thomas-franks-cat.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/thomas-franks-cat2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/thomas-franks-cat3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/thomas-franks-cat4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/u-cash check.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/u25dts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/u2lbar.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/u2ldts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/u2lsamp1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/v list.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/weblist.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/weekly.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/x.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/xorders.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/yearend.rpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/z.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/~crw4142.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/~crw4544.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/~crw6c41.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/~crw7266.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Master Hulse-170723/~crw7267.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZVJJH4PYYz5hNOXnPnVYGRQRVx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/savit/Downloads/ShoppinglyX Django Project/ShoppinglyX Django Project/Without Payment Gateway&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/savit/Desktop/ShoppinglyX Django Project/With Payment Gateway/Savita_DjangoShop/app/templates/app/TEST12.html&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\savit\Desktop\SAVITA\Shivi_DjangoShop_22062024\app\templates\app" />
+      <recent name="C:\Users\savit\Desktop\SAVITA" />
+      <recent name="C:\Users\savit\Desktop\ShoppinglyX Django Project\With Payment Gateway\Savita_DjangoShop\app\static\app\images\banner" />
+      <recent name="C:\Users\savit\Desktop\ShoppinglyX Django Project\With Payment Gateway\Savita_DjangoShop\app\templates\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.AWsContentWebScrapper">
+    <configuration name="AWsContentWebScrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Savita_DjangoShop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/templates/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/templates/app/AWsContentWebScrapper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Savita_DjangoShop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\_tech\rcs\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.10 (rcs)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.AWsContentWebScrapper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f6286eb-bfe2-4dd0-83fa-56cffbe7a586" name="Changes" comment="" />
+      <created>1702501239102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702501239102</updated>
+    </task>
+    <servers />
+  </component>
+</project>

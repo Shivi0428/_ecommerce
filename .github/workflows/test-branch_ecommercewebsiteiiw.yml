@@ -1,69 +1,50 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
-# More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
-
-name: Build and deploy Python app to Azure Web App - EcommercewebsiteIIW
+name: Azure Web App CI/CD
 
 on:
   push:
     branches:
-      - test-branch
-  workflow_dispatch:
+      - test-branch  # Trigger on push to the test-branch
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      # Checkout the repository
+      - name: 'Checkout GitHub Action'
+        uses: actions/checkout@v3
 
-      - name: Set up Python version
-        uses: actions/setup-python@v5
+      # Set up Python environment
+      - name: 'Set up Python'
+        uses: actions/setup-python@v3
         with:
-          python-version: '3.10'
+          python-version: '3.10'  # Update Python version to 3.10
 
-      - name: Create and start virtual environment
+      # Install Python dependencies
+      - name: 'Install Dependencies'
         run: |
-          python -m venv venv
-          source venv/bin/activate
-      
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-        
-      # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
+          python -m pip install --upgrade pip
+          pip install -r Shivi_DjangoShop_22062024/req.txt
 
-      - name: Zip artifact for deployment
-        run: zip release.zip ./* -r
+      # Run Django migrations
+      - name: 'Run Django Migrations'
+        working-directory: Shivi_DjangoShop_22062024  # Set working directory to Django app path
+        env:
+          DJANGO_SETTINGS_MODULE: 'Shivi_DjangoShop_22062024.settings'
+        run: python manage.py migrate
 
-      - name: Upload artifact for deployment jobs
-        uses: actions/upload-artifact@v4
-        with:
-          name: python-app
-          path: |
-            release.zip
-            !venv/
+      # Collect static files
+      - name: 'Collect Static Files'
+        working-directory: Shivi_DjangoShop_22062024  # Set working directory to Django app path
+        env:
+          DJANGO_SETTINGS_MODULE: 'Shivi_DjangoShop_22062024.settings'
+        run: python manage.py collectstatic --noinput
 
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: 'Production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-    
-    steps:
-      - name: Download artifact from build job
-        uses: actions/download-artifact@v4
-        with:
-          name: python-app
-
-      - name: Unzip artifact for deployment
-        run: unzip release.zip
-
-      
+      # Deploy to Azure Web App
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v3
-        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
         with:
-          app-name: 'EcommercewebsiteIIW'
-          slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_07F9DB14CE2A43C389D2E4960E5E5B7B }}
+          app-name: ${{ secrets.AZURE_WEBAPP_NAME }}  # The name of your Azure App Service
+          slot-name: 'production'
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}  # The publish profile stored in GitHub secrets
+          package: ./Shivi_DjangoShop_22062024  # Path to your Django app directory
